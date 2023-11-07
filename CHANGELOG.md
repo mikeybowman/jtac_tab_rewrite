@@ -71,7 +71,7 @@ Known Issues:
 
   - On insert, the bird will sit for 2 minutes without the ability to send it back to base
 
-## 1.0.2 (2023-11-07)
+## 1.0.1 (2023-11-07)
 
 Filed Uploaded:
 
