@@ -29,10 +29,10 @@ Contributors
 
 ## Version History
 
-* 0.2
+* 1.0.2
     * Made public
     * See [commit change]() or See [release history]()
-* 0.1
+* 1.0.1
     * Initial Release
 
 
