@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="TOG">
+	<Package name="TOG_jtac">
+		<Container name="CAS">
+			<Key ID="STR_TRACK_START">
+				<Original>START TRACKING</Original>
+				<English>START TRACKING</English>
+				<Polish>START TRACKING</Polish>
+			</Key>
+			<Key ID="STR_TRACK_STOP">
+				<Original>STOP TRACKING</Original>
+				<English>STOP TRACKING</English>
+				<Polish>STOP TRACKING</Polish>
+			</Key>
+			<Key ID="STR_TITLE_ABORT">
+				<Original>REQUESTED UNITS</Original>
+				<English>REQUESTED UNITS</English>
+				<Polish>AKTYWNE JEDNOSTKI</Polish>
+			</Key>
+			<Key ID="STR_DSTTGT_TRACKER">
+				<Original>TGT/Pick Up DISTANCE</Original>
+				<English>TGT/Pick Up DISTANCE</English>
+				<Polish>DYSTANS OD CELU</Polish>
+			</Key>
+			<Key ID="STR_DSTIP_TRACKER">
+				<Original>IP/BP/Destination DISTANCE</Original>
+				<English>IP/BP/Destination DISTANCE</English>
+				<Polish>DYSTANS OD PW/PA/Celu transportu</Polish>
+			</Key>
+			<Key ID="STR_UNKNOW_TRACKER">
+				<Original>UNKNOW</Original>
+				<English>UNKNOW</English>
+				<Polish>UNKNOW</Polish>
+			</Key>
+			<Key ID="STR_CODE_ABORT">
+				<Original>ABORT CODE</Original>
+				<English>ABORT CODE</English>
+				<Polish>ABORT CODE</Polish>
+			</Key>
+			<Key ID="STR_CALLSIGN_ABORT">
+				<Original>REQUESTED UNIT CALLSIGN</Original>
+				<English>REQUESTED UNIT CALLSIGN</English>
+				<Polish>KRYPTONIM JEDNOSTKI</Polish>
+			</Key>
+			<Key ID="STR_BTN_ABORT">
+				<Original>! ABORT !</Original>
+				<English>! ABORT !</English>
+				<Polish>! ABORT !</Polish>
+			</Key>
+			<Key ID="STR_TITLE_CAS">
+				<Original>CLOSE AIR SUPPORT REQUEST</Original>
+				<English>CLOSE AIR SUPPORT REQUEST</English>
+				<Polish>BLISKIE WSPARCIE POWIETRZNE</Polish>
+			</Key>
+			<Key ID="STR_NUMTYPE_CAS">
+				<Original>Number / Type of aircraft</Original>
+				<English>Number / Type of aircraft</English>
+				<Polish>Liczba / Typ wsparcia</Polish>
+			</Key>
+			<Key ID="STR_TGTLOC_CAS">
+				<Original>TGT Location</Original>
+				<English>TGT Location</English>
+				<Polish>Pozycja celu</Polish>
+			</Key>
+			<Key ID="STR_IPBP_CAS">
+				<Original>IP/BP</Original>
+				<English>IP/BP</English>
+				<Polish>PW/PA</Polish>
+			</Key>
+			<Key ID="STR_FRIENDLOC_CAS">
+				<Original>Friendlies Location</Original>
+				<English>Friendlies Location</English>
+				<Polish>Pozycja swoich</Polish>
+			</Key>
+			<Key ID="STR_MARK_CAS">
+				<Original>Marker Type</Original>
+				<English>Marker type</English>
+				<Polish>Typ oznaczenia</Polish>
+			</Key>
+			<Key ID="STR_DISTANCE_CAS">
+				<Original>Distance TGT to IP/BP</Original>
+				<English>Distance TGT to IP/BP</English>
+				<Polish>Dystans CEL-PW/PA</Polish>
+			</Key>
+			<Key ID="STR_OFFSET_CAS">
+				<Original>Offset</Original>
+				<English>Offset</English>
+				<Polish>Przesunięcie</Polish>
+			</Key>
+			<Key ID="STR_ELEVATION_CAS">
+				<Original>TGT Eleveation</Original>
+				<English>TGT Elevation</English>
+				<Polish>Wysokość NPM</Polish>
+			</Key>
+			<Key ID="STR_HEADING_CAS">
+				<Original>Heading</Original>
+				<English>Heading</English>
+				<Polish>Kierunek</Polish>
+			</Key>
+			<Key ID="STR_TGTDESC_CAS">
+				<Original>TGT Desription</Original>
+				<English>TGT Description</English>
+				<Polish>Opis celu</Polish>
+			</Key>
+			<Key ID="STR_GBU_CAS">
+				<Original>GBU</Original>
+				<English>GBU</English>
+				<Polish>GBU</Polish>
+			</Key>
+			<Key ID="STR_CARPET_CAS">
+				<Original>CARPET</Original>
+				<English>CARPET</English>
+				<Polish>DYWANOWY</Polish>
+			</Key>
+			<Key ID="STR_DIRECT_CAS">
+				<Original>DIRECT FIRE</Original>
+				<English>DIRECT FIRE</English>
+				<Polish>ATAK BEZPOŚREDNI</Polish>
+			</Key>
+			<Key ID="STR_MANUAL_CAS">
+				<Original>MANUAL FIRE</Original>
+				<English>MANUAL FIRE</English>
+				<Polish>NAPROWADZANIE RĘCZNE</Polish>
+			</Key>
+			<Key ID="STR_REQUEST_CAS">
+				<Original>REQUEST</Original>
+				<English>REQUEST</English>
+				<Polish>WEZWIJ</Polish>
+			</Key>
+		
+			<Key ID="STR_TITLE_TRANS">
+				<Original>TRANSPORT REQUEST</Original>
+				<English>TRANSPORT REQUEST</English>
+				<Polish>BTRANSPORT</Polish>
+			</Key>
+			<Key ID="STR_NUMTYPE_TRANS">
+				<Original>Type of transport</Original>
+				<English>Type of transport</English>
+				<Polish>Typ transportu</Polish>
+			</Key>
+			<Key ID="STR_PICK_TRANS">
+				<Original>PickUp Location</Original>
+				<English>PickUp Location</English>
+				<Polish>Pozycja podebrania</Polish>
+			</Key>
+			<Key ID="STR_DEST_TRANS">
+				<Original>Destination</Original>
+				<English>Destination</English>
+				<Polish>Pozycja docelowa</Polish>
+			</Key>
+			<Key ID="STR_SEQDESC_TRANS">
+				<Original>Sequrity of pickup</Original>
+				<English>Sequrity of pickup</English>
+				<Polish>Zagrożenie miejsca podebrania</Polish>
+			</Key>
+			<Key ID="STR_TRANS_SEQ_N">
+				<Original>No enemy</Original>
+				<English>No enemy</English>
+				<Polish>BRAK PRZECIWNIKA</Polish>
+			</Key>
+			<Key ID="STR_TRANS_SEQ_P">
+				<Original>Enemy possible</Original>
+				<English>Enemy possible</English>
+				<Polish>PRZECIWNIK MOŻLIWY</Polish>
+			</Key>
+			<Key ID="STR_TRANS_SEQ_E">
+				<Original>Enemy close</Original>
+				<English>Enemy close</English>
+				<Polish>PRZECIWNIK W POBLIŻU</Polish>
+			</Key>
+			<Key ID="STR_TRANS_SEQ_X">
+				<Original>Enemy close - needed heavy escort</Original>
+				<English>Enemy close - needed heavy escort</English>
+				<Polish>PRZECIWNIK W POBLIŻU, POTRZEBNA ESKORTA</Polish>
+			</Key>			
+		</Container>
+		<Container name="TOOLTIPS">
+			<Key ID="STR_TOOLTIP_TRACKER">
+				<Original>TRACK UNIT</Original>
+				<English>TRACK UNIT</English>
+				<Polish>ŚLEDŹ JEDNOSTKĘ</Polish>
+			</Key>
+			<Key ID="STR_TOOLTIP_SELECTMAP">
+				<Original>Select on map</Original>
+				<English>Select on map</English>
+				<Polish>Wybierz na mapie</Polish>
+			</Key>
+			<Key ID="STR_TOOLTIP_SELECTAMMO">
+				<Original>Select attack type</Original>
+				<English>Select attack type</English>
+				<Polish>Wybierz typ ataku</Polish>
+			</Key>
+			<Key ID="STR_INFO_LOWDISTANCE">
+				<Original>TGT and IP/BP are too close</Original>
+				<English>TGT and IP/BP are too close</English>
+				<Polish>Cel i PW/PA są zbyt blisko</Polish>
+			</Key>
+			<Key ID="STR_INFO_BUSY">
+				<Original>This unit is currently unavailable</Original>
+				<English>This unit is currently unavailable</English>
+				<Polish>Ta jednostka jest obecnie niedostępna</Polish>
+			</Key>
+			<Key ID="STR_INFO_NODATA">
+				<Original>Not enought data for request</Original>
+				<English>Not enought data for request</English>
+				<Polish>Podano zbyt mało informacji</Polish>
+			</Key>
+			<Key ID="STR_INFO_MAXCAS_REACHED">
+				<Original>This number of aircrafts is unavailable</Original>
+				<English>This number of aircrafts is unavailable</English>
+				<Polish>Brak takiej ilosci maszyn</Polish>
+			</Key>
+			<Key ID="STR_INFO_MAXTRANS_REACHED">
+				<Original>This number of vehicles is unavailable</Original>
+				<English>This number of vehicles is unavailable</English>
+				<Polish>Brak takiej ilosci pojazdów</Polish>
+			</Key>
+			<Key ID="STR_INFO_REQESTSEND">
+				<Original>Request has ben send. Standby.</Original>
+				<English>Request has ben send. Standby.</English>
+				<Polish>Zgłoszenie wysłane. Czekaj.</Polish>
+			</Key>
+			<Key ID="STR_INFO_MUSTBELASER">
+				<Original>For manual fire, marker must be laser.</Original>
+				<English>For manual fire, marker must be laser.</English>
+				<Polish>Dla ręcznego naprowadzania cel musi być oznaczony laserem.</Polish>
+			</Key>
+		</Container>
+		<Container name="CASRADIO">
+			<Key ID="STR_RADIO_THISIS">
+				<Original>THIS IS</Original>
+				<English>THIS IS</English>
+				<Polish>TU</Polish>
+			</Key>
+			<Key ID="STR_RADIO_OVER">
+				<Original>OVER</Original>
+				<English>OVER</English>
+				<Polish>ODBIÓR</Polish>
+			</Key>
+			<Key ID="STR_RADIO_OUT">
+				<Original>OUT</Original>
+				<English>OUT</English>
+				<Polish>BEZ ODBIORU</Polish>
+			</Key>
+			<Key ID="STR_RADIO_REQESTAPROVED">
+				<Original>Request has ben send. Standby.</Original>
+				<English>Request has ben send. Standby.</English>
+				<Polish>Zgłoszenie wysłane. Czekaj.</Polish>
+			</Key>
+			<Key ID="STR_RADIO_ENTERING">
+				<Original>entering your airspace at designated point</Original>
+				<English>entering your airspace at designated point</English>
+				<Polish>wchodzimy w strefę w wyznaczonym punkcie</Polish>
+			</Key>
+			<Key ID="STR_RADIO_ENTERING_GROUND">
+				<Original>entering area</Original>
+				<English>entering area</English>
+				<Polish>wjeżdżamy w strefę</Polish>
+			</Key>
+			<Key ID="STR_RADIO_OSCARMIKE">
+				<Original>we are on the move. Stay sharp</Original>
+				<English>we are on the move. Stay sharp</English>
+				<Polish>jetesmy w drodze</Polish>
+			</Key>
+			<Key ID="STR_RADIO_TAKINGFIRE">
+				<Original>we are taking fire! we are taking heavy fire! Request SAR at</Original>
+				<English>we are taking fire! we are taking heavy fire! Request SAR at</English>
+				<Polish>Dostalimy się pod ogień! Potrzebujemy wspa</Polish>
+			</Key>
+			<Key ID="STR_RADIO_GO">
+				<Original>Move to destination</Original>
+				<English>Move to destination</English>
+				<Polish>Ruszaj!</Polish>
+			</Key>
+			<Key ID="STR_RADIO_MARK">
+				<Original>Waiting for target mark</Original>
+				<English>Waiting for target mark</English>
+				<Polish>Czekamy na oznaczenie celu</Polish>
+			</Key>
+			<Key ID="STR_RADIO_MARK_LZ">
+				<Original>Waiting for LZ mark</Original>
+				<English>Waiting for LZ mark</English>
+				<Polish>Czekamy na oznaczenie lądowiska</Polish>
+			</Key>
+			<Key ID="STR_RADIO_ENGAGING">
+				<Original>Engaging target</Original>
+				<English>Engaging target</English>
+				<Polish>Angażujemy cel</Polish>
+			</Key>
+			<Key ID="STR_RADIO_LANDING">
+				<Original>is landing</Original>
+				<English>is landing</English>
+				<Polish>ląduje</Polish>
+			</Key>
+			<Key ID="STR_RADIO_CONFIRMSMOKE">
+				<Original>Please confirm smoke color</Original>
+				<English>Please confirm smoke color</English>
+				<Polish>Potwierdź kolor dymu</Polish>
+			</Key>
+			<Key ID="STR_RADIO_RTB">
+				<Original>RTB for rearm and refuel</Original>
+				<English>RTB for rearm and refuel</English>
+				<Polish>wracamy do bazy</Polish>
+			</Key>
+			<Key ID="STR_RADIO_MAKING_PASS">
+				<Original>making another pass</Original>
+				<English>making another pass</English>
+				<Polish>Wykonuję kolejny przelot</Polish>
+			</Key>
+			<Key ID="STR_RADIO_CONFIRM_HIT">
+				<Original>Please confirm hit on target</Original>
+				<English>Please confirm hit on target</English>
+				<Polish>Potwierdź trafienie</Polish>
+			</Key>
+			<Key ID="STR_RADIO_NO_FUEL">
+				<Original>Sorry, bingo fuel, we can`t make another pass</Original>
+				<English>Sorry, bingo fuel, we can`t make another pass</English>
+				<Polish>Sorry, nie mamy paliwa na dnastępny przelot</Polish>
+			</Key>
+			<Key ID="STR_CONFIRM_HIT">
+				<Original>&lt;t color='#c48214'&gt;Confirm target hit  &lt;/t&gt;</Original>
+				<English>&lt;t color='#c48214'&gt;Confirm target hit &lt;/t&gt;</English>
+				<Polish>&lt;t color='#c48214'&gt;Potwierdź trafienie  &lt;/t&gt;</Polish>
+			</Key>
+			<Key ID="STR_CONFIRM_HITNOT">
+				<Original>NOT confirm target hit</Original>
+				<English>NOT confirm target hit</English>
+				<Polish>NIE potwierdź trafienia</Polish>
+			</Key>
+			<Key ID="STR_REQUEST_PASS">
+				<Original>Request another pass</Original>
+				<English>Request another pass</English>
+				<Polish>Kolejny przelot</Polish>
+			</Key>
+			<Key ID="STR_SMOKE_WHITE">
+				<Original>WHITE</Original>
+				<English>WHITE</English>
+				<Polish>BIAŁY</Polish>
+			</Key>
+			<Key ID="STR_SMOKE_YELLOW">
+				<Original>YELLOW</Original>
+				<English>YELLOW</English>
+				<Polish>ŻÓŁTY</Polish>
+			</Key>
+			<Key ID="STR_SMOKE_GREEN">
+				<Original>GREEN</Original>
+				<English>GREEN</English>
+				<Polish>ZIELONY</Polish>
+			</Key>
+			<Key ID="STR_SMOKE_RED">
+				<Original>RED </Original>
+				<English>RED </English>
+				<Polish>CZERWONY</Polish>
+			</Key>
+			<Key ID="STR_SMOKE_PURPLE">
+				<Original>PURPLE</Original>
+				<English>PURPLE</English>
+				<Polish>FIOLETOWY</Polish>
+			</Key>
+			<Key ID="STR_SMOKE_ORANGE">
+				<Original>ORANG</Original>
+				<English>ORANGE</English>
+				<Polish>POMARAŃCZOWY</Polish>
+			</Key>
+			<Key ID="STR_SMOKE_BLUE">
+				<Original>BLUE</Original>
+				<English>BLUE</English>
+				<Polish>NIEBIESKI</Polish>
+			</Key>
+			<Key ID="STR_SMOKE_CONFIRM">
+				<Original>Confirm </Original>
+				<English>Confirm </English>
+				<Polish>Potwierdź </Polish>
+			</Key>
+			<Key ID="STR_CHOSE_AT">
+				<Original>AT Missile</Original>
+				<English>AT Missile</English>
+				<Polish>Pocik AT</Polish>
+			</Key>
+			<Key ID="STR_CHOSE_AP">
+				<Original>AP Missile</Original>
+				<English>AP Missile</English>
+				<Polish>Pocik AP</Polish>
+			</Key>
+			<Key ID="STR_CHOSE_CANN">
+				<Original>Cannon</Original>
+				<English>Cannon</English>
+				<Polish>Działko</Polish>
+			</Key>
+			<Key ID="STR_CHOSE_RTB">
+				<Original>Send to base</Original>
+				<English>Send to base</English>
+				<Polish>Wylij do bazy</Polish>
+			</Key>
+		</Container>
+		<Container name="HEADINGS">
+			<Key ID="STR_N">
+				<Original>N</Original>
+				<English>N</English>
+				<Polish>N</Polish>
+			</Key>
+			<Key ID="STR_NE">
+				<Original>NE</Original>
+				<English>NE</English>
+				<Polish>NE</Polish>
+			</Key>
+			<Key ID="STR_E">
+				<Original>E</Original>
+				<English>E</English>
+				<Polish>E</Polish>
+			</Key>
+			<Key ID="STR_SE">
+				<Original>SE</Original>
+				<English>SE</English>
+				<Polish>SE</Polish>
+			</Key>
+			<Key ID="STR_S">
+				<Original>S</Original>
+				<English>S</English>
+				<Polish>S</Polish>
+			</Key>
+			<Key ID="STR_SW">
+				<Original>SW</Original>
+				<English>SW</English>
+				<Polish>SW</Polish>
+			</Key>
+			<Key ID="STR_W">
+				<Original>W</Original>
+				<English>W</English>
+				<Polish>W</Polish>
+			</Key>
+			<Key ID="STR_NW">
+				<Original>NW</Original>
+				<English>NW</English>
+				<Polish>NW</Polish>
+			</Key>
+		</Container>
+		<Container name="OFFSET">
+			<Key ID="STR_L">
+				<Original>L</Original>
+				<English>L</English>
+				<Polish>L</Polish>
+			</Key>
+			<Key ID="STR_R">
+				<Original>R</Original>
+				<English>R</English>
+				<Polish>P</Polish>
+			</Key>
+			<Key ID="STR_NONE">
+				<Original>NONE</Original>
+				<English>NONE</English>
+				<Polish>BRAK</Polish>
+			</Key>
+		</Container>
+		<Container name="MARKTYPE">
+			<Key ID="STR_LASER">
+				<Original>LASER</Original>
+				<English>LASER</English>
+				<Polish>LASER</Polish>
+			</Key>
+			<Key ID="STR_SMOKE">
+				<Original>SMOKE</Original>
+				<English>SMOKE</English>
+				<Polish>DYM</Polish>
+			</Key>
+			<Key ID="STR_LIGHTSTICK">
+				<Original>LIGHTSTICK</Original>
+				<English>LIGHTSICK</English>
+				<Polish>Światło CHEM.</Polish>
+			</Key>
+			<Key ID="STR_FLARE">
+				<Original>FLARE</Original>
+				<English>FLARE</English>
+				<Polish>FLARA</Polish>
+			</Key>
+		</Container>
+		<Container name="TGTDESC">
+			<Key ID="STR_INFANTRY">
+				<Original>Infantry</Original>
+				<English>Infantry</English>
+				<Polish>Piechota</Polish>
+			</Key>
+			<Key ID="STR_VEHICLE">
+				<Original>Vehicle</Original>
+				<English>Vehicle</English>
+				<Polish>Pojazd</Polish>
+			</Key>
+			<Key ID="STR_ARMOR">
+				<Original>Light armor</Original>
+				<English>Light armor</English>
+				<Polish>Lekko opancerzony</Polish>
+			</Key>
+			<Key ID="STR_HEAVYARMOR">
+				<Original>Heavy armor</Original>
+				<English>Heavy armor</English>
+				<Polish>Opancerzony</Polish>
+			</Key>
+			<Key ID="STR_STRUCTURE">
+				<Original>Structure</Original>
+				<English>Structure</English>
+				<Polish>Budowla</Polish>
+			</Key>
+		
+	</Package>
+</Project>
