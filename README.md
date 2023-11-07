@@ -1,6 +1,6 @@
-# Project Title
+# JTACTab: Advanced Support Module RE-WRITE
 
-JTACTab: Advanced Support Module RE-WRITE
+Remastered for Arma 2023
 
 ## Description
 
