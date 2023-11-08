@@ -195,10 +195,6 @@ class TOG_jtac_abort_dlg {
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
-			soundEnter[] = { "", 0, 1 };
-			soundPush[] = {"", 0, 1 };
-			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
-			soundEscape[] = {"", 0, 1 };
 		};
 		class TOG_jtac_btn2: TOG_RscButton {
   			idc = 100001;
@@ -217,10 +213,6 @@ class TOG_jtac_abort_dlg {
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
-			soundEnter[] = { "", 0, 1 };
-			soundPush[] = {"", 0, 1 };
-			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
-			soundEscape[] = {"", 0, 1 };
 		};
 		class TOG_jtac_btn3: TOG_RscButton {
   			idc = 100001;
@@ -239,11 +231,6 @@ class TOG_jtac_abort_dlg {
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
-			soundEnter[] = { "", 0, 1 };
-			soundPush[] = {"", 0, 1 };
-			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
-			soundEscape[] = {"", 0, 1 };
-
 		};
 	};
 };
