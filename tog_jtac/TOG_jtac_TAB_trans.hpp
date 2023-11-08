@@ -181,7 +181,7 @@ class TOG_jtac_trans_dlg {
 			size = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.75);
   			text= "";
   			toolTip = "CAS";
-  			onMouseButtonClick = "[true] call TOG_fnc_jtac_Trans_callsign; closeDialog 0;  [] spawn TOG_fnc_jtac_showTab_CAS;";
+  			onMouseButtonClick = "";
   			colorDisabled[] ={1,1,1,0};
 			colorBackground[] ={1,1,1,0};
 			colorBackgroundDisabled[] ={1,1,1,0};
@@ -189,7 +189,10 @@ class TOG_jtac_trans_dlg {
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
-
+			soundEnter[] = { "", 0, 1 };
+			soundPush[] = {"", 0, 1 };
+			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
+			soundEscape[] = {"", 0, 1 };
 		};
 		class TOG_jtac_btn2: TOG_RscButton {
   			idc = 100001;
@@ -199,8 +202,8 @@ class TOG_jtac_trans_dlg {
 			h = 1.2 * GUI_GRID_H;
 			size = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.75);
   			text= "";
-  			toolTip = "Transport";
-  			onMouseButtonClick = "";
+  			toolTip = "TRANS";
+  			onMouseButtonClick = "[true] call TOG_fnc_jtac_CAS_callsign; closeDialog 0;  [] spawn TOG_fnc_jtac_showTab_Trans;";
   			colorDisabled[] ={1,1,1,0};
 			colorBackground[] ={1,1,1,0};
 			colorBackgroundDisabled[] ={1,1,1,0};
@@ -208,7 +211,10 @@ class TOG_jtac_trans_dlg {
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
-
+			soundEnter[] = { "", 0, 1 };
+			soundPush[] = {"", 0, 1 };
+			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
+			soundEscape[] = {"", 0, 1 };
 		};
 		class TOG_jtac_btn3: TOG_RscButton {
   			idc = 100001;
@@ -219,7 +225,7 @@ class TOG_jtac_trans_dlg {
 			size = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.75);
   			text= "";
   			toolTip = "REQUESTED";
-  			onMouseButtonClick = "[true] call TOG_fnc_jtac_Trans_callsign; closeDialog 0;  [] spawn TOG_fnc_jtac_showTab_Abort;";
+  			onMouseButtonClick = "[true] call TOG_fnc_jtac_CAS_callsign; closeDialog 0;  [] spawn TOG_fnc_jtac_showTab_Abort;";
   			colorDisabled[] ={1,1,1,0};
 			colorBackground[] ={1,1,1,0};
 			colorBackgroundDisabled[] ={1,1,1,0};
@@ -227,11 +233,14 @@ class TOG_jtac_trans_dlg {
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
+			soundEnter[] = { "", 0, 1 };
+			soundPush[] = {"", 0, 1 };
+			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
+			soundEscape[] = {"", 0, 1 };
 
 		};
 	};
 };
-
 
 
 
