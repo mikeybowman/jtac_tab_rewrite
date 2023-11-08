@@ -34,6 +34,9 @@ Known Issues:
   - On insert, the bird will sit for 2 minutes without the ability to send it back to base
   - RTB feature is broken
   - Not all custom airframes are compatible
+  - Rotary will freeze at IP/BP
+  - Green smoke will register as Green and Purple, breaking the logic (MOD SMOKE)
+  - Sometimes FW will crash into ground for a DIRECT run
 
 ## 1.0.1 (2023-11-07)
 
