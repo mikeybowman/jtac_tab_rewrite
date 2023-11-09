@@ -1,4 +1,9 @@
-
+//////////////////////////////
+//	Advanced JTAC module	//
+//		  Rewrite			//
+//		 by Tsardev			//
+//							//
+//////////////////////////////
 
 class TOG_jtac_abort_dlg {
 	idd = 1000001;
@@ -180,74 +185,74 @@ class TOG_jtac_abort_dlg {
 		////////// TAB BTNS
 		class TOG_jtac_btn1: TOG_RscButton {
   			idc = 100001;
-			x = 31 * GUI_GRID_W + GUI_GRID_X;
-			y = 8 * GUI_GRID_H + GUI_GRID_Y;
+			x = 21.8 * GUI_GRID_W + GUI_GRID_X;
+			y = 22 * GUI_GRID_H + GUI_GRID_Y;
 			w = 1.2 * GUI_GRID_W;
 			h = 1.2 * GUI_GRID_H;
 			size = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.75);
   			text= "";
   			toolTip = "CAS";
-  			onMouseButtonClick = "";
+  			onMouseButtonClick = "closeDialog 0;  [] spawn TOG_fnc_jtac_showTab_CAS;";
   			colorDisabled[] ={1,1,1,0};
+			soundEnter[] = { "", 0, 1 };  //no sound
+			soundPush[] = { "", 0, 1 };
+			soundClick[] = {"tog_jtac\sound\beep_target.wss",0.09,1};
+			soundEscape[] = { "", 0, 1 };
 			colorBackground[] ={1,1,1,0};
 			colorBackgroundDisabled[] ={1,1,1,0};
 			colorBackgroundActive[] ={1,1,1,0};
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
-			soundEnter[] = { "", 0, 1 };
-			soundPush[] = {"", 0, 1 };
-			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
-			soundEscape[] = {"", 0, 1 };
+
 		};
 		class TOG_jtac_btn2: TOG_RscButton {
   			idc = 100001;
-			x = 31.2 * GUI_GRID_W + GUI_GRID_X;
-			y = 9.2 * GUI_GRID_H + GUI_GRID_Y;
+			x = 22.8 * GUI_GRID_W + GUI_GRID_X;
+			y = 22 * GUI_GRID_H + GUI_GRID_Y;
 			w = 1.2 * GUI_GRID_W;
 			h = 1.2 * GUI_GRID_H;
 			size = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.75);
   			text= "";
-  			toolTip = "TRANS";
-  			onMouseButtonClick = "[true] call TOG_fnc_jtac_CAS_callsign; closeDialog 0;  [] spawn TOG_fnc_jtac_showTab_Trans;";
+  			toolTip = "Transport";
+  				onMouseButtonClick = "closeDialog 0;  [] spawn TOG_fnc_jtac_showTab_Trans;";
   			colorDisabled[] ={1,1,1,0};
+			soundEnter[] = { "", 0, 1 };  //no sound
+			soundPush[] = { "", 0, 1 };
+			soundClick[] = {"tog_jtac\sound\beep_target.wss",0.09,1};
+			soundEscape[] = { "", 0, 1 };
 			colorBackground[] ={1,1,1,0};
 			colorBackgroundDisabled[] ={1,1,1,0};
 			colorBackgroundActive[] ={1,1,1,0};
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
-			soundEnter[] = { "", 0, 1 };
-			soundPush[] = {"", 0, 1 };
-			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
-			soundEscape[] = {"", 0, 1 };
+
 		};
 		class TOG_jtac_btn3: TOG_RscButton {
   			idc = 100001;
-			x = 31 * GUI_GRID_W + GUI_GRID_X;
-			y = 18 * GUI_GRID_H + GUI_GRID_Y;
+			x = 23.8 * GUI_GRID_W + GUI_GRID_X;
+			y = 22 * GUI_GRID_H + GUI_GRID_Y;
 			w = 1.2 * GUI_GRID_W;
 			h = 1.2 * GUI_GRID_H;
 			size = (((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.75);
   			text= "";
   			toolTip = "REQUESTED";
-  			onMouseButtonClick = "[true] call TOG_fnc_jtac_CAS_callsign; closeDialog 0;  [] spawn TOG_fnc_jtac_showTab_Abort;";
+  			onMouseButtonClick = "";
   			colorDisabled[] ={1,1,1,0};
+			soundEnter[] = { "", 0, 1 };  //no sound
+			soundPush[] = { "", 0, 1 };
+			soundClick[] = {"tog_jtac\sound\beep_target.wss",0.09,1};
+			soundEscape[] = { "", 0, 1 };
 			colorBackground[] ={1,1,1,0};
 			colorBackgroundDisabled[] ={1,1,1,0};
 			colorBackgroundActive[] ={1,1,1,0};
 			colorFocused[] ={1,1,1,0};
 			colorShadow[] ={1,1,1,0};
 			colorBorder[] ={1,1,1,0};
-			soundEnter[] = { "", 0, 1 };
-			soundPush[] = {"", 0, 1 };
-			soundClick[] = {"tog_jtac/sound/select.ogg",0.09,1};
-			soundEscape[] = {"", 0, 1 };
-
 		};
 	};
 };
-
 
 
 
