@@ -1,43 +1,29 @@
-# CHANGELOG.md
+# JTACTab: Advanced Support Module RE-WRITE
 
-## 2.0.0 (Unreleased)
-  - Updated GUI
-  - Sounds on button clicks
-  - CTAB integration for messaging
-  - Mark targets with Laser
-  - Mark targets with IR Strobe
-  - Full airframe integration
-  - Updated pilot/crew uniforms
-  - BDA provided
-  - Aircraft checkin 
-  - Aircraft racetrack
-  - Aircraft loiter
-  - ISR integration
-  - UAVs added
-  - Active tracking of friendlies and enemies within XXX meters of player
-  - Configure TOT, TOS, and attack altitude
-  - Automatic reporting of fallen angel (Will tie in a pilot SERE script I am working on)
+Remastered for Arma 2023
 
-## 1.0.2 (2023-11-07)
+## Description
 
-Update:
+A re-write and release of the Advanced Diving Enviornment.
 
-  - Various script errors fixed in the transport system
-  - Fixed 3CB factions airframes
-  - Callsign script fixed
-  - TAB added sound file pathway (Do not have sound folder on Git yet)
-  - TAB "Transport" renamed to "TRANS"
-  
 
-Known Issues:
+## Dev Team
 
-  - On insert, the bird will sit for 2 minutes without the ability to send it back to base
-  - RTB feature is broken
-  - Not all custom airframes are compatible
 
-## 1.0.1 (2023-11-07)
+* TsarDev 
+* GCinATX
+* Niko
 
-Filed Uploaded:
+## Version History
 
-  - Files uploaded for GitHub
-  - All changes to this point are implimented and not-properly documented
+* 1.0.2
+    * Made public, added contributors
+    * See [commit change]() or See [release history]()
+* 1.0.1
+    * Initial Release
+
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [Original Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2242427475)
